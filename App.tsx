@@ -40,7 +40,7 @@ function App(): React.JSX.Element {
     <SafeAreaView style={backgroundStyle}>
       <ScrollView>
         <View>
-          <Text>hi</Text>
+          <Text>Hell0 World</Text>
         </View>
       </ScrollView>
     </SafeAreaView>
