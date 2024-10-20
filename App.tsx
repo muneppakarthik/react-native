@@ -24,11 +24,17 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+import HomeScreen from './src/HomeScreen';
+import NotificationsScreen from './src/NotificationsScreen';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
 
+const Drawer = createDrawerNavigator();
+const Stack = createStackNavigator();
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
@@ -37,13 +43,17 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <ScrollView>
-        <View>
-          <Text>Hell0 World</Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      {/* Stack Navigation */}
+      {/* <Stack.Navigator initialRouteName='Home'>
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Notifications" component={NotificationsScreen} />
+      </Stack.Navigator> */}
+      <Drawer.Navigator initialRouteName='Home'>
+        <Drawer.Screen name="Home" component={HomeScreen} />
+        <Drawer.Screen name="Notifications" component={NotificationsScreen} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
 
