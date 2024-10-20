@@ -3,7 +3,8 @@ import {View, Text, Button, Image} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import {fonts} from './Constants/stylesUtiles';
-// import Logo from './assets/images/Home/care.png';
+import Doctor from './assets/images/Home/doctor.png';
+const CareImage = require("./assets/images/care.png");
 
 const HomeScreen = ({navigation}: any) => {
   return (
@@ -32,12 +33,17 @@ const HomeScreen = ({navigation}: any) => {
       <Text style={{...fonts.fw_800, fontSize: 23}}>
         Home Screen <Icon name="plane" size={30} color="blue" />;
       </Text>
+      <Image
+        source={Doctor}
+        style={{width: 200,height:200}}
+      />
       <Text style={{...fonts.fw_900, fontSize: 23}}>
         Home Screen <Icon name="plane" size={30} color="blue" />;
       </Text>
-      {/* <Image
-        source={require('./assets/images/care.png')} // Update the path as per your project structure
-      /> */}
+      <Image
+        source={CareImage}
+        style={{width: 200,height:200}}
+      />
       <Button
         onPress={() => navigation.navigate('Notifications')}
         title="Go To Notifications"
