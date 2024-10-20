@@ -29,6 +29,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from './src/HomeScreen';
 import NotificationsScreen from './src/NotificationsScreen';
 import { createDrawerNavigator } from '@react-navigation/drawer';
+import AboutScreen from './src/About';
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -49,9 +50,10 @@ function App(): React.JSX.Element {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Notifications" component={NotificationsScreen} />
       </Stack.Navigator> */}
-      <Drawer.Navigator initialRouteName='Home'>
+      <Drawer.Navigator initialRouteName='About'>
         <Drawer.Screen name="Home" component={HomeScreen} />
         <Drawer.Screen name="Notifications" component={NotificationsScreen} />
+        <Drawer.Screen name="About" component={AboutScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );

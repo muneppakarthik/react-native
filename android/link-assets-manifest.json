@@ -1,0 +1,165 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "9f27955a401cc9ea5ba3503027a4ea502c87e70c"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BlackItalic.ttf",
+      "sha1": "be4ef2aac7775a4b0179c0ecfce6cea8f7783f63"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BoldItalic.ttf",
+      "sha1": "6de8952ca08d27ee77f57347d2cef4b4e26aa78f"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBoldItalic.ttf",
+      "sha1": "94d3ee3acdbd00e37a715a25f2b5237666b5b8a3"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLightItalic.ttf",
+      "sha1": "6fa0418f91032680d2d8fe4843009f2c80faa61d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Italic.ttf",
+      "sha1": "e2bfcd56016c3c915221ef1c5fc1a17b0776eb91"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-LightItalic.ttf",
+      "sha1": "f76102b361e705751a83b7b22fe954daf1f27dd4"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-MediumItalic.ttf",
+      "sha1": "b592c62fdf88c40cfd0f031bba6423b1d4430472"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBoldItalic.ttf",
+      "sha1": "0c8bed0a5942b2388d36b11c115685d9f01700b0"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ThinItalic.ttf",
+      "sha1": "fb8fccca21550e71135f92bbaf8a2e8a12c90465"
+    },
+    {
+      "path": "src/assets/images/Home/bg_profile.jpg",
+      "sha1": "64ee732840ca735f593e90b4a6aca7238b6836c5"
+    },
+    {
+      "path": "src/assets/images/Home/care.png",
+      "sha1": "74230722db62cad3d0fd3f7843b17c776439ea5f"
+    },
+    {
+      "path": "src/assets/images/Home/doctor.png",
+      "sha1": "8ec4ce61d0fe963106320321e3dc3d304b9a5d4e"
+    },
+    {
+      "path": "src/assets/images/Home/hospital.png",
+      "sha1": "8d941c4a28daee08bf37165142ba838d6391fe2b"
+    },
+    {
+      "path": "src/assets/images/Home/medical_report.png",
+      "sha1": "4d01fceb37c43a9e3af05a5d6d1a67d15b2a0c49"
+    },
+    {
+      "path": "src/assets/images/Home/news1.jpg",
+      "sha1": "87c3adf524176ce0e2749d66ce5422aa4d24b0e4"
+    },
+    {
+      "path": "src/assets/images/Home/news2.jpg",
+      "sha1": "45973c50c29962c64f5a1e743181502b96d6a134"
+    },
+    {
+      "path": "src/assets/images/Home/news3.jpg",
+      "sha1": "96caf2a253a18b2a0a032c9f2bccf6ecc180c4e1"
+    },
+    {
+      "path": "src/assets/images/Home/product.jpg",
+      "sha1": "c8425b2f2413df1e977cc6e1bf471a1541e29824"
+    },
+    {
+      "path": "src/assets/images/Home/product2.jpg",
+      "sha1": "65c6f2c9e339d95fafcc44589abc98976dc3abda"
+    },
+    {
+      "path": "src/assets/images/Home/product3.jpg",
+      "sha1": "0798aeb2ffda35b5bf5845caa207843339e72293"
+    },
+    {
+      "path": "src/assets/images/Home/product4.jpg",
+      "sha1": "09e0d4087ba44261597af304bfd9389586436ff9"
+    },
+    {
+      "path": "src/assets/images/Home/product5.jpg",
+      "sha1": "4e911d33a69d302544ab63ab27f3ea5f868c3054"
+    },
+    {
+      "path": "src/assets/images/Home/product6.jpg",
+      "sha1": "67b5f03e0b10641f8e1aae6ca09675b0494ddcea"
+    },
+    {
+      "path": "src/assets/images/Home/product7.jpg",
+      "sha1": "7add0dcfb6089ef8fe4c577b945518ef987495dc"
+    },
+    {
+      "path": "src/assets/images/Home/profile4.jpg",
+      "sha1": "3d516f8882abf7c4fa9a00c6ad80b413154ee3af"
+    },
+    {
+      "path": "src/assets/images/Home/profile5.jpg",
+      "sha1": "5157c92ec8f88ed75e7829472f06ad48f50a1cec"
+    },
+    {
+      "path": "src/assets/images/Home/profile6.jpg",
+      "sha1": "4652821c2be4aab99626c2b2ef6d92d0aabe9aa4"
+    },
+    {
+      "path": "src/assets/images/Home/promo.jpg",
+      "sha1": "ab3a8a760afc58181101cc060d4de3d1af183270"
+    },
+    {
+      "path": "src/assets/images/Home/stethoscope.png",
+      "sha1": "6f518aef0f5f4b75b2868aa286063d38367bd822"
+    },
+    {
+      "path": "src/assets/images/Home/store.png",
+      "sha1": "c25f2ff4556f013a90c02223b98ddce17cf13ae9"
+    }
+  ]
+}
