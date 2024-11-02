@@ -101,7 +101,9 @@ const ThemeColors = {
     white: '#ffffff',
     gray: '#838181',
     red: '#e60d0d',
-    gold: '#ffc700'
+    gold: '#ffc700',
+    lightGray: '#f9f9f9',
+    gray1: '#dedede'
 }
 
 export { fontFamies, fonts, ThemeColors };
