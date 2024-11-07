@@ -91,6 +91,8 @@ const styles = StyleSheet.create({
     verticalAlign: 'middle',
   },
   subContainer: {
+    flex: 1,
+    width: '100%',
     paddingHorizontal: 20,
     backgroundColor: '#ffffffe0',
   },
