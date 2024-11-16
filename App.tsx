@@ -34,39 +34,45 @@ import AboutScreen from './src/About';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {ThemeColors} from './src/Constants/stylesUtiles';
 import Header from './src/components/header/Header';
+
+// context
+import {AppProvider} from './src/Context/AppContext';
+import ContextScreen from './src/ContextScreen';
+
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
-
   return (
-    <View style={styles.app}>
-    <NavigationContainer>
-      {/* Stack Navigation */}
-      {/* <Stack.Navigator initialRouteName='Home'>
+    <AppProvider>
+      <View style={styles.app}>
+        <NavigationContainer>
+          {/* Stack Navigation */}
+          {/* <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Notifications" component={NotificationsScreen} />
       </Stack.Navigator> */}
-      <Drawer.Navigator
-        initialRouteName="Home"
-        screenOptions={{
-          header:({navigation,route})=>(
-            <Header />
-          )
-        }}
-        >
-        <Drawer.Screen name="Home" component={HomeScreen} />
-        <Drawer.Screen name="Notifications" component={NotificationsScreen} />
-        <Drawer.Screen name="About" component={AboutScreen} />
-      </Drawer.Navigator>
-      
-    </NavigationContainer>
-    </View>
+          <Drawer.Navigator
+            initialRouteName="Home"
+            screenOptions={{
+              header: ({navigation, route}) => <Header />,
+            }}>
+            <Drawer.Screen name="Home" component={HomeScreen} />
+            <Drawer.Screen
+              name="Notifications"
+              component={NotificationsScreen}
+            />
+            <Drawer.Screen name="About" component={AboutScreen} />
+            <Drawer.Screen name="ContextScreen" component={ContextScreen} />
+          </Drawer.Navigator>
+        </NavigationContainer>
+      </View>
+    </AppProvider>
   );
 }
 
 const styles = StyleSheet.create({
-  app:{
+  app: {
     flex: 1,
-    backgroundColor: ThemeColors.white 
+    backgroundColor: ThemeColors.white,
   },
   sectionContainer: {
     marginTop: 32,
