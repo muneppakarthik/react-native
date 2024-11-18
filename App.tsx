@@ -38,6 +38,10 @@ import Header from './src/components/header/Header';
 // context
 import {AppProvider} from './src/Context/AppContext';
 import ContextScreen from './src/ContextScreen';
+import ContactUs from './src/ContactUs';
+import OurDoctors from './src/OurDoctors';
+import Gallery from './src/Gallery';
+import SettingAccout from './src/SettingAccout';
 
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
@@ -62,6 +66,10 @@ function App(): React.JSX.Element {
             />
             <Drawer.Screen name="About" component={AboutScreen} />
             <Drawer.Screen name="ContextScreen" component={ContextScreen} />
+            <Drawer.Screen name="ContactUs" component={ContactUs} />
+            <Drawer.Screen name="Our Doctors" component={OurDoctors} />
+            <Drawer.Screen name="Gallery" component={Gallery} />
+            <Drawer.Screen name="Setting" component={SettingAccout} />
           </Drawer.Navigator>
         </NavigationContainer>
       </View>

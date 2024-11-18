@@ -82,6 +82,46 @@
       "sha1": "74230722db62cad3d0fd3f7843b17c776439ea5f"
     },
     {
+      "path": "src/assets/images/gallery/gallery1.jpg",
+      "sha1": "3a6dd8078cc8f66bd56e5bc96a30f3c19b96b693"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery10.jpg",
+      "sha1": "c85cde4fe0542c3937c76f7452e7209ab82d9856"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery2.jpg",
+      "sha1": "51b0ed48c92df29f0707acaa0f0b021d403b808a"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery3.jpg",
+      "sha1": "d7af1a9d47cbe0cf2f6ccbc3feef71699954ce4a"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery4.jpg",
+      "sha1": "482673fe463f5340fdf2fb979d0cdc02dc767d12"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery5.jpg",
+      "sha1": "11aedc091b29aaef4d0c71cd98b78e56e84d9fa8"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery6.jpg",
+      "sha1": "98303865702c1f3c8e006b7492ddff37e7ec59c1"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery7.jpg",
+      "sha1": "24831025fb2ac0b8b6eae41856698b696e0cb77d"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery8.jpg",
+      "sha1": "a9bca07c3f11522afdf7cdafea75444d7ae9d3de"
+    },
+    {
+      "path": "src/assets/images/gallery/gallery9.jpg",
+      "sha1": "957045ff678bfc6a39ffafe20a38ce527b60f4a1"
+    },
+    {
       "path": "src/assets/images/Home/bg_profile.jpg",
       "sha1": "64ee732840ca735f593e90b4a6aca7238b6836c5"
     },
@@ -154,12 +194,40 @@
       "sha1": "ab3a8a760afc58181101cc060d4de3d1af183270"
     },
     {
+      "path": "src/assets/images/Home/slide.jpg",
+      "sha1": "450ff3a94ebc58a245e4a69a9c6c0cca440c37b5"
+    },
+    {
+      "path": "src/assets/images/Home/slide2.jpg",
+      "sha1": "f7675b9fa361c42523ad0ffc6f7c6e6e5982e7bd"
+    },
+    {
       "path": "src/assets/images/Home/stethoscope.png",
       "sha1": "6f518aef0f5f4b75b2868aa286063d38367bd822"
     },
     {
       "path": "src/assets/images/Home/store.png",
       "sha1": "c25f2ff4556f013a90c02223b98ddce17cf13ae9"
+    },
+    {
+      "path": "src/assets/images/our-doctors/doctor1.jpg",
+      "sha1": "15821a902cbacb246bed16d12fd6db39b01fce1a"
+    },
+    {
+      "path": "src/assets/images/our-doctors/doctor2.jpg",
+      "sha1": "30bea3cbc27c165e97ef37984aec8a9948aad11c"
+    },
+    {
+      "path": "src/assets/images/our-doctors/doctor3.jpg",
+      "sha1": "b1de75fc0c5fdebf21442a8640ac04b713ed4828"
+    },
+    {
+      "path": "src/assets/images/our-doctors/doctor4.jpg",
+      "sha1": "bfbe5e977a69e98ee46eb069a24779ae7d6ad3d9"
+    },
+    {
+      "path": "src/assets/images/our-doctors/doctor5.jpg",
+      "sha1": "f59b8771481f6b8e91d066a17dcccae4f34d433c"
     }
   ]
 }

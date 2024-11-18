@@ -54,6 +54,23 @@
 		D602E75DDDB547C8AE8FF1AD /* stethoscope.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BCEDA852BD468FAEBB5750 /* stethoscope.png */; };
 		7D5A10DDF56E44DEB3AF8EB2 /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B90AE34974D41BC906EF9B6 /* store.png */; };
 		914C4010E0D243E99D566732 /* care.png in Resources */ = {isa = PBXBuildFile; fileRef = E285B4D53B2246B2B200FC61 /* care.png */; };
+		6E5DA80215144490983DB03D /* slide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C81D4FE1CE2F4E5399219B8B /* slide.jpg */; };
+		8109FF60521542A38778DF11 /* slide2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7E47FDD39CE42C4A95DDFB5 /* slide2.jpg */; };
+		F8FC9725F7BE4102A83FBF25 /* doctor1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DE2B1F54F0B406C8E850CF4 /* doctor1.jpg */; };
+		66C04531F2E04FFAB147A507 /* doctor2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1C39C4476B847BF834902B9 /* doctor2.jpg */; };
+		AF9E0A3941804F318B583B01 /* doctor3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2864DEE655FC4B898D2D28DF /* doctor3.jpg */; };
+		0007A7E01A6C4A678852BD5E /* doctor4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25BE630F9B124A728E0870E0 /* doctor4.jpg */; };
+		1BCE69EAAAB24B10B34534E3 /* doctor5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD7D4AFD612B42C080201E36 /* doctor5.jpg */; };
+		8422A3FEA967412F94CD02FF /* gallery1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2098DE40919419D8CB690BE /* gallery1.jpg */; };
+		5BC5AF5FC8424B3894319E5C /* gallery10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7EC3BFD884994129BFA37C72 /* gallery10.jpg */; };
+		41E252D185C642529A2603CB /* gallery2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7D9C965F6EA0485A82B95AFA /* gallery2.jpg */; };
+		B5B0CF21B92E4F6DBB1A21D5 /* gallery3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F00704A20249A094F99456 /* gallery3.jpg */; };
+		F88E54B2B38E4B85B5BF0544 /* gallery4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 056CE41939A0431EAE5F3BB1 /* gallery4.jpg */; };
+		5A1A12145B394BEEB2081A56 /* gallery5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05F5419A5DD4427A96A60C1C /* gallery5.jpg */; };
+		89C0CB9640614AC28E1B3B06 /* gallery6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 974EB9EFDCF6409697770BE8 /* gallery6.jpg */; };
+		8638694642BD410B8C138F01 /* gallery7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3E00343982D644549CB92263 /* gallery7.jpg */; };
+		FDD9009FA3E543F2960CBC38 /* gallery8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AF1A8CD515D463883882B39 /* gallery8.jpg */; };
+		31E026C000A544D6AC8AD67E /* gallery9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 08CA6306F3574579ABE94D03 /* gallery9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +142,23 @@
 		E3BCEDA852BD468FAEBB5750 /* stethoscope.png */ = {isa = PBXFileReference; name = "stethoscope.png"; path = "../src/assets/images/Home/stethoscope.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		0B90AE34974D41BC906EF9B6 /* store.png */ = {isa = PBXFileReference; name = "store.png"; path = "../src/assets/images/Home/store.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		E285B4D53B2246B2B200FC61 /* care.png */ = {isa = PBXFileReference; name = "care.png"; path = "../src/assets/images/care.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C81D4FE1CE2F4E5399219B8B /* slide.jpg */ = {isa = PBXFileReference; name = "slide.jpg"; path = "../src/assets/images/Home/slide.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E7E47FDD39CE42C4A95DDFB5 /* slide2.jpg */ = {isa = PBXFileReference; name = "slide2.jpg"; path = "../src/assets/images/Home/slide2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DE2B1F54F0B406C8E850CF4 /* doctor1.jpg */ = {isa = PBXFileReference; name = "doctor1.jpg"; path = "../src/assets/images/our-doctors/doctor1.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F1C39C4476B847BF834902B9 /* doctor2.jpg */ = {isa = PBXFileReference; name = "doctor2.jpg"; path = "../src/assets/images/our-doctors/doctor2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2864DEE655FC4B898D2D28DF /* doctor3.jpg */ = {isa = PBXFileReference; name = "doctor3.jpg"; path = "../src/assets/images/our-doctors/doctor3.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		25BE630F9B124A728E0870E0 /* doctor4.jpg */ = {isa = PBXFileReference; name = "doctor4.jpg"; path = "../src/assets/images/our-doctors/doctor4.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FD7D4AFD612B42C080201E36 /* doctor5.jpg */ = {isa = PBXFileReference; name = "doctor5.jpg"; path = "../src/assets/images/our-doctors/doctor5.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2098DE40919419D8CB690BE /* gallery1.jpg */ = {isa = PBXFileReference; name = "gallery1.jpg"; path = "../src/assets/images/gallery/gallery1.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7EC3BFD884994129BFA37C72 /* gallery10.jpg */ = {isa = PBXFileReference; name = "gallery10.jpg"; path = "../src/assets/images/gallery/gallery10.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7D9C965F6EA0485A82B95AFA /* gallery2.jpg */ = {isa = PBXFileReference; name = "gallery2.jpg"; path = "../src/assets/images/gallery/gallery2.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7F00704A20249A094F99456 /* gallery3.jpg */ = {isa = PBXFileReference; name = "gallery3.jpg"; path = "../src/assets/images/gallery/gallery3.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		056CE41939A0431EAE5F3BB1 /* gallery4.jpg */ = {isa = PBXFileReference; name = "gallery4.jpg"; path = "../src/assets/images/gallery/gallery4.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05F5419A5DD4427A96A60C1C /* gallery5.jpg */ = {isa = PBXFileReference; name = "gallery5.jpg"; path = "../src/assets/images/gallery/gallery5.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		974EB9EFDCF6409697770BE8 /* gallery6.jpg */ = {isa = PBXFileReference; name = "gallery6.jpg"; path = "../src/assets/images/gallery/gallery6.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3E00343982D644549CB92263 /* gallery7.jpg */ = {isa = PBXFileReference; name = "gallery7.jpg"; path = "../src/assets/images/gallery/gallery7.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6AF1A8CD515D463883882B39 /* gallery8.jpg */ = {isa = PBXFileReference; name = "gallery8.jpg"; path = "../src/assets/images/gallery/gallery8.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08CA6306F3574579ABE94D03 /* gallery9.jpg */ = {isa = PBXFileReference; name = "gallery9.jpg"; path = "../src/assets/images/gallery/gallery9.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +308,23 @@
 				E3BCEDA852BD468FAEBB5750 /* stethoscope.png */,
 				0B90AE34974D41BC906EF9B6 /* store.png */,
 				E285B4D53B2246B2B200FC61 /* care.png */,
+				C81D4FE1CE2F4E5399219B8B /* slide.jpg */,
+				E7E47FDD39CE42C4A95DDFB5 /* slide2.jpg */,
+				8DE2B1F54F0B406C8E850CF4 /* doctor1.jpg */,
+				F1C39C4476B847BF834902B9 /* doctor2.jpg */,
+				2864DEE655FC4B898D2D28DF /* doctor3.jpg */,
+				25BE630F9B124A728E0870E0 /* doctor4.jpg */,
+				FD7D4AFD612B42C080201E36 /* doctor5.jpg */,
+				E2098DE40919419D8CB690BE /* gallery1.jpg */,
+				7EC3BFD884994129BFA37C72 /* gallery10.jpg */,
+				7D9C965F6EA0485A82B95AFA /* gallery2.jpg */,
+				A7F00704A20249A094F99456 /* gallery3.jpg */,
+				056CE41939A0431EAE5F3BB1 /* gallery4.jpg */,
+				05F5419A5DD4427A96A60C1C /* gallery5.jpg */,
+				974EB9EFDCF6409697770BE8 /* gallery6.jpg */,
+				3E00343982D644549CB92263 /* gallery7.jpg */,
+				6AF1A8CD515D463883882B39 /* gallery8.jpg */,
+				08CA6306F3574579ABE94D03 /* gallery9.jpg */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -414,6 +465,23 @@
 				D602E75DDDB547C8AE8FF1AD /* stethoscope.png in Resources */,
 				7D5A10DDF56E44DEB3AF8EB2 /* store.png in Resources */,
 				914C4010E0D243E99D566732 /* care.png in Resources */,
+				6E5DA80215144490983DB03D /* slide.jpg in Resources */,
+				8109FF60521542A38778DF11 /* slide2.jpg in Resources */,
+				F8FC9725F7BE4102A83FBF25 /* doctor1.jpg in Resources */,
+				66C04531F2E04FFAB147A507 /* doctor2.jpg in Resources */,
+				AF9E0A3941804F318B583B01 /* doctor3.jpg in Resources */,
+				0007A7E01A6C4A678852BD5E /* doctor4.jpg in Resources */,
+				1BCE69EAAAB24B10B34534E3 /* doctor5.jpg in Resources */,
+				8422A3FEA967412F94CD02FF /* gallery1.jpg in Resources */,
+				5BC5AF5FC8424B3894319E5C /* gallery10.jpg in Resources */,
+				41E252D185C642529A2603CB /* gallery2.jpg in Resources */,
+				B5B0CF21B92E4F6DBB1A21D5 /* gallery3.jpg in Resources */,
+				F88E54B2B38E4B85B5BF0544 /* gallery4.jpg in Resources */,
+				5A1A12145B394BEEB2081A56 /* gallery5.jpg in Resources */,
+				89C0CB9640614AC28E1B3B06 /* gallery6.jpg in Resources */,
+				8638694642BD410B8C138F01 /* gallery7.jpg in Resources */,
+				FDD9009FA3E543F2960CBC38 /* gallery8.jpg in Resources */,
+				31E026C000A544D6AC8AD67E /* gallery9.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

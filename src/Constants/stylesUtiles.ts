@@ -103,7 +103,11 @@ const ThemeColors = {
     red: '#e60d0d',
     gold: '#ffc700',
     lightGray: '#f9f9f9',
-    gray1: '#dedede'
+    gray1: '#dedede',
+    gray2: '#636363',
+    fb_bg: '#3b5998',
+    insta_bg: '#4099ff',
+    linked_bg: '#3372b9'
 }
 
 export { fontFamies, fonts, ThemeColors };
