@@ -42,6 +42,8 @@ import ContactUs from './src/ContactUs';
 import OurDoctors from './src/OurDoctors';
 import Gallery from './src/Gallery';
 import SettingAccout from './src/SettingAccout';
+import DrawerCustom from './src/components/Drawer';
+import NewsList from './src/NewsList';
 
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
@@ -58,7 +60,9 @@ function App(): React.JSX.Element {
             initialRouteName="Home"
             screenOptions={{
               header: ({navigation, route}) => <Header />,
-            }}>
+            }}
+            drawerContent={(props) => <DrawerCustom {...props} />}
+            >
             <Drawer.Screen name="Home" component={HomeScreen} />
             <Drawer.Screen
               name="Notifications"
@@ -70,6 +74,7 @@ function App(): React.JSX.Element {
             <Drawer.Screen name="Our Doctors" component={OurDoctors} />
             <Drawer.Screen name="Gallery" component={Gallery} />
             <Drawer.Screen name="Setting" component={SettingAccout} />
+            <Drawer.Screen name="NewsList" component={NewsList} />
           </Drawer.Navigator>
         </NavigationContainer>
       </View>

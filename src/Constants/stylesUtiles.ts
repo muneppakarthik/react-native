@@ -107,7 +107,8 @@ const ThemeColors = {
     gray2: '#636363',
     fb_bg: '#3b5998',
     insta_bg: '#4099ff',
-    linked_bg: '#3372b9'
+    linked_bg: '#3372b9',
+    steelBlueContrast: '#247ca173'
 }
 
 export { fontFamies, fonts, ThemeColors };
