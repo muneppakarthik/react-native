@@ -44,6 +44,9 @@ import Gallery from './src/Gallery';
 import SettingAccout from './src/SettingAccout';
 import DrawerCustom from './src/components/Drawer';
 import NewsList from './src/NewsList';
+import NewsDetails from './src/NewsDetails';
+import ProductList from './src/ProductList';
+import WishList from './src/WishList';
 
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
@@ -61,8 +64,7 @@ function App(): React.JSX.Element {
             screenOptions={{
               header: ({navigation, route}) => <Header />,
             }}
-            drawerContent={(props) => <DrawerCustom {...props} />}
-            >
+            drawerContent={props => <DrawerCustom {...props} />}>
             <Drawer.Screen name="Home" component={HomeScreen} />
             <Drawer.Screen
               name="Notifications"
@@ -75,6 +77,9 @@ function App(): React.JSX.Element {
             <Drawer.Screen name="Gallery" component={Gallery} />
             <Drawer.Screen name="Setting" component={SettingAccout} />
             <Drawer.Screen name="NewsList" component={NewsList} />
+            <Drawer.Screen name="NewsDetail" component={NewsDetails} />
+            <Drawer.Screen name="productLink" component={ProductList} />
+            <Drawer.Screen name="wishlist" component={WishList} />
           </Drawer.Navigator>
         </NavigationContainer>
       </View>

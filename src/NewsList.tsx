@@ -23,7 +23,7 @@ interface ListPropsType {
   image: any;
 }
 
-const NewsList = () => {
+const NewsList = (props: any) => {
   const newsList: ListPropsType[] = [
     {
       title: 'Drink to Your Health: Healthy Drink Every Day',
@@ -50,6 +50,10 @@ const NewsList = () => {
       image: Image4,
     },
   ];
+
+  const viewMoreHandler = () => {
+    props.navigation.navigate('NewsDetail');
+  };
   return (
     <ScrollView
       nestedScrollEnabled={true}
@@ -61,7 +65,7 @@ const NewsList = () => {
           BLOG
         </Text>
         <View style={styles.blogContainer}>
-          {newsList?.map((item, ind:number) => (
+          {newsList?.map((item, ind: number) => (
             <View style={styles.cardContainer} key={ind}>
               <Image source={item.image} style={styles.image} />
               <Text style={styles.cardTitle}>{item.title}</Text>
@@ -69,7 +73,9 @@ const NewsList = () => {
                 <FontAwesome name="calendar-o" size={14} /> &nbsp; {item.date}
               </Text>
               <Text style={styles.description}>{item.des}</Text>
-              <TouchableOpacity style={styles.readmore}>
+              <TouchableOpacity
+                style={styles.readmore}
+                onPress={viewMoreHandler}>
                 <Text style={styles.readmoreLabel}>Read More</Text>
               </TouchableOpacity>
             </View>
@@ -102,13 +108,13 @@ const styles = StyleSheet.create({
     color: ThemeColors.darkgray,
   },
   blogContainer: {
-    marginBottom: 30
+    marginBottom: 30,
   },
   cardContainer: {
     paddingBottom: 30,
     borderBottomWidth: 1,
     borderBottomColor: ThemeColors.darkgray,
-    paddingTop: 10
+    paddingTop: 10,
   },
   image: {
     resizeMode: 'cover',
