@@ -22,6 +22,10 @@ const DrawerCustom = (props: any) => {
     {
       name: 'Wish List',
       link: 'wishlist',
+    },
+    {
+      name: 'Product Page',
+      link: 'productDetails',
     }
   ];
   return (

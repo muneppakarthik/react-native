@@ -47,6 +47,7 @@ import NewsList from './src/NewsList';
 import NewsDetails from './src/NewsDetails';
 import ProductList from './src/ProductList';
 import WishList from './src/WishList';
+import ProductDetail from './src/ProductDetail';
 
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
@@ -80,6 +81,7 @@ function App(): React.JSX.Element {
             <Drawer.Screen name="NewsDetail" component={NewsDetails} />
             <Drawer.Screen name="productLink" component={ProductList} />
             <Drawer.Screen name="wishlist" component={WishList} />
+            <Drawer.Screen name="productDetails" component={ProductDetail} />
           </Drawer.Navigator>
         </NavigationContainer>
       </View>

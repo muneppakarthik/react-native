@@ -18,7 +18,7 @@ const Footer = () => {
       <ImageBackground
         source={require('../assets/images/Home/bg_profile.jpg')}
         style={styles.backgroundImage}
-        resizeMode="cover">
+        resizeMode="stretch">
         <View style={styles.subContainer}>
           <Text style={styles.subscribe}>SUBSCRIBE</Text>
           <Text style={styles.subInfo}>
