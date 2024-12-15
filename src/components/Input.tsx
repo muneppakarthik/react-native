@@ -1,21 +1,23 @@
 import React, {useState} from 'react';
-import {StyleSheet, Text, TextInput, View} from 'react-native';
+import {StyleProp, StyleSheet, Text, TextInput, View, ViewStyle} from 'react-native';
 import { fonts, ThemeColors } from '../Constants/stylesUtiles';
 
 interface InputProps {
   placeHolder?: string,
   label: string,
-  showLabel?: boolean
+  showLabel?: boolean,
+  style?: StyleProp<ViewStyle>; 
+  cotainerstyle?: StyleProp<ViewStyle>; 
 }
 
-const Input = ({placeHolder = '', label, showLabel= false}:InputProps) => {
+const Input = ({placeHolder = '', label, showLabel= false, style, cotainerstyle}:InputProps) => {
   const [name, setName] = useState<string>('');
   const [isFocused, setIsFocused] = useState(false);
 
   return (
-    <View style={styles.formControl}>
+    <View style={[styles.formControl,cotainerstyle]}>
       <TextInput
-        style={styles.input}
+        style={[styles.input, style]}
         placeholder={isFocused ? '' : placeHolder}
         value={name}
         onChangeText={newText => setName(newText)}

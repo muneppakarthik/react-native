@@ -104,6 +104,7 @@ const ThemeColors = {
     gold: '#ffc700',
     lightGray: '#f9f9f9',
     lightGray1: '#f6f6f6',
+    lightGray2: '#fbfbfb',
     gray1: '#dedede',
     gray2: '#636363',
     fb_bg: '#3b5998',

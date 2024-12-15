@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     lineHeight: 22,
   },
   quantityBlock: {
-    backgroundColor: ThemeColors.lightGray1,
+    backgroundColor: ThemeColors.lightGray2,
     padding: 20,
     flexDirection: 'row',
     justifyContent: 'space-between',

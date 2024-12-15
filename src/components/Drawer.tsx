@@ -26,6 +26,14 @@ const DrawerCustom = (props: any) => {
     {
       name: 'Product Page',
       link: 'productDetails',
+    },
+    {
+      name: 'Shopping Cart',
+      link: 'shoppingCart',
+    },
+    {
+      name: 'Checkout',
+      link: 'checkout',
     }
   ];
   return (
