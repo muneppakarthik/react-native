@@ -50,6 +50,9 @@ import WishList from './src/WishList';
 import ProductDetail from './src/ProductDetail';
 import ShoppingCart from './src/ShoppingCart';
 import Checkout from './src/Checkout';
+import NotFound from './src/NotFound';
+import SignIn from './src/SignIn';
+import SignUp from './src/SignUp';
 
 const Drawer = createDrawerNavigator();
 function App(): React.JSX.Element {
@@ -86,6 +89,9 @@ function App(): React.JSX.Element {
             <Drawer.Screen name="productDetails" component={ProductDetail} />
             <Drawer.Screen name="shoppingCart" component={ShoppingCart} />
             <Drawer.Screen name="checkout" component={Checkout} />
+            <Drawer.Screen name="notFound" component={NotFound} />
+            <Drawer.Screen name="login" component={SignIn} />
+            <Drawer.Screen name="signup" component={SignUp} />
           </Drawer.Navigator>
         </NavigationContainer>
       </View>

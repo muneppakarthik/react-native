@@ -98,6 +98,7 @@ const ThemeColors = {
     steelblue: '#318bb1',
     darkslategray: '#303030',
     darkgray: '#969696',
+    darkgray1: '#9e9e9e',
     white: '#ffffff',
     gray: '#838181',
     red: '#e60d0d',
